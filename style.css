@@ -42,3 +42,22 @@ nav a.active{
     border-bottom: 2px solid red;
     font-weight: bold;
 }
+.Hero{
+    height: 90vh;
+    background-image: url("Images/BACKGROUND.png");
+    justify-content: center;
+    background-size: cover;
+    display: flex;
+    /* align-items: center; */
+    color: white;
+}
+.Hero button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
