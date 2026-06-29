@@ -44,7 +44,11 @@ nav a.active{
 }
 .Hero{
     height: 90vh;
+<<<<<<< HEAD
     background-image: url("Images/BACKGROUNG.jpeg");
+=======
+    background-image: url("Images/BACKGROUND.png");
+>>>>>>> dfa8d7276d37664546902dfa1ce618a0f2c035d4
     justify-content: center;
     background-size: cover;
     display: flex;
@@ -60,6 +64,7 @@ nav a.active{
     color: aliceblue;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .Hero button:hover{
     background-color: rgba(171, 2, 2, 0.972);
 }
@@ -105,3 +110,6 @@ nav a.active{
     color: #555;
     line-height: 1.6;
 }
+=======
+
+>>>>>>> dfa8d7276d37664546902dfa1ce618a0f2c035d4
