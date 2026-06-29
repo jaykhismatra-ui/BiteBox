@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Lobster Two", sans-serif;
+    font-family: "Croissant One", serif;
 }
 nav div{
     display: flex;
@@ -30,7 +30,7 @@ nav a:hover{
     color: red;
 }
 nav li:last-child a{
-    background-color: cornflowerblue;
+    background-color: red;
     padding: 6px 12px;
     border-radius: 10px;
 }
@@ -41,4 +41,67 @@ nav a.active{
     color: red;
     border-bottom: 2px solid red;
     font-weight: bold;
+}
+.Hero{
+    height: 90vh;
+    background-image: url("Images/BACKGROUNG.jpeg");
+    justify-content: center;
+    background-size: cover;
+    display: flex;
+    /* align-items: center; */
+    color: white;
+}
+.Hero button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.Hero button:hover{
+    background-color: rgba(171, 2, 2, 0.972);
+}
+.video_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.video_text{
+    flex:1;
+}
+.video_box{
+    flex:1;
+}
+.video_box video{
+    width: 100%;
+    border-radius: 10px;
+}
+.video_text h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.video_text p{
+    font-size: 20px;
+    color:cadetblue;
+}
+.about {
+    text-align: center;
+    padding: 60px 20px;
+    background-color:navajowhite;
+}
+.about h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: rgb(240, 1, 1);
+}
+.about P{
+    max-width: 700px;
+    font-size: 18px;
+    margin: auto;
+    color: #555;
+    line-height: 1.6;
 }
